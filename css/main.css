@@ -1,0 +1,323 @@
+*
+{
+  padding: 0;
+  margin: 0;
+}
+/*
+inicio container
+*/
+#container
+{
+  width: 1080px;
+ margin: 0 auto;
+}
+/*
+fim container
+*/
+
+/*
+inicio links padroes
+*/
+a:link, a:active, a:visited
+{
+  color: #af670a;
+  text-decoration: none;
+}
+
+a:hover
+{
+  color: #227115;
+}
+/*
+fim links padroes
+*/
+p
+{
+  text-align: justify;
+}
+li
+{
+  text-decoration: none;
+  list-style: none;
+}
+/*
+inicio body
+*/
+body
+{
+  background: #f4f2ec url(../imagens/fundo.png) repeat-x;
+  font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+}
+/*
+fim body
+*/
+
+
+/*
+inicio logo
+*/
+#logo h1
+{
+  float: left;
+}
+#logo a
+{
+    width: 248px;
+    height: 21px;
+    text-indent: -9999px;
+    display: block;
+    background: url(../imagens/logo.png) no-repeat;
+}
+/*
+fim logo
+*/
+
+
+/*
+inicio header
+*/
+header
+{
+  padding: 15px 0;
+  height: 55px;
+}
+/*
+fim header
+*/
+
+/*
+inicio nav
+*/
+
+nav ul
+{
+  list-style: none;
+  margin: 20px;
+  float: right;
+}
+
+nav ul li
+{
+  float: left;
+}
+
+nav ul li a:link
+{
+  display: block;
+  margin-right: 25px;
+  padding-bottom: 3px;
+  text-transform: uppercase;
+}
+nav ul li a:hover
+{
+  border-bottom: 1px solid #535858;
+}
+ul img
+{
+  width: 350px;
+  height: 175px;
+  float: left;
+}
+ul.lado
+{
+  float: left;
+}
+/*
+fim nav
+*/
+
+
+/*
+inicio conteudo
+*/
+#conteudo
+{
+  width: 710px;
+  float: left;
+  margin-bottom: 20px;
+}
+/*
+fim conteudo
+*/
+
+
+/*
+inicio aside
+*/
+aside
+{
+  width: 350px;
+  float:right;
+  background: #ebe7dd;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+}
+/*
+fim aside
+*/
+
+/*
+inicio section visita
+*/
+section#visita
+{
+  background: #cdc8b1;
+  padding: 10px 27px 27px 27px;
+  margin-top: 10px;
+
+}
+h4
+{
+  color: #86521a;
+  text-transform: uppercase;
+  padding-bottom: 3px;
+  margin-bottom: 0;
+}
+h3
+{
+  color: #227115;
+  font-size: 1.0em;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+input
+{
+  height: 20px;
+  background: #FFF;
+  border: none;
+  font-size: 1em;
+  width: 80px;
+}
+input.campo
+{
+  border: 1px solid #ada484;
+}
+input.botao
+{
+  background: #9b9271;
+  color: white;
+  width: 100%;
+  height: 40px;
+  font-size: 1.2em;
+}
+fieldset
+{
+  border: none;
+
+}
+legend
+{
+  display: none;
+}
+/*
+fim section visita
+*/
+
+/*
+inicio section galeria
+*/
+section#galeria a
+{
+   display: block;
+   background: url(../imagens/fundo-foto.png) no-repeat;
+   float: left;
+   padding: 17px 15px 17px 15px;
+   margin: 10px 0 0 20px;
+}
+section#galeria img
+{
+  margin-left: 2px;
+  margin-top: 3px;
+}
+section#galeria
+{
+  padding: 0 27px 0 7px;
+}
+
+/*
+fim section galeria
+*/
+/*
+inicio articles
+*/
+  article#video
+  {
+    float: left;
+    width: 310px;
+    margin-left: 25px;
+
+  }
+  article#mapa
+  {
+    float: left;
+    width: 310px;
+    margin-left: 37px;
+  }
+  article#exposicoes
+  {
+    float: right;
+    width: 310px;
+    margin: 15px 0 0 25px;
+  }
+
+  article#historia
+  {
+    float: left;
+    width: 310px;
+    margin: 15px 0 0 37px;
+  }
+/*
+fim articles
+*/
+/*
+inicio section visita
+*/
+section#depoimento
+{
+
+}
+/*
+fim section visita
+*/
+
+
+/*
+inicio section visita
+*/
+section#capa
+{
+
+}
+/*
+fim section visita
+*/
+a.big
+{
+  font-size: 1.5em;
+}
+h1
+{
+  font-size: 1.6em;
+}
+img.dive
+{
+  padding: 2px 0 0 4px;;
+  margin: 2px;
+  border: 4px;
+}
+
+
+/*
+inicio roda pé
+*/
+footer
+{
+  padding: 20px 0 30px 0;
+  clear: both;
+  text-align: center;
+  background: url(../imagens/fundo-rodape.png) no-repeat center top;
+
+}
+/*
+fim roda pé
+*/
